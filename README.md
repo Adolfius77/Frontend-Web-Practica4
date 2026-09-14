@@ -6,4 +6,4 @@ Preguntas de reflexión:
    esa capa es la que conoce todos eso códigos htpp si el servicio devolviera un 409 estaríamos acoplando la lógica de dominio con htpp, al separar estas dos capas mantendremos el código limpio y desacoplado 
    
 4. Si mañana agregaran una app móvil que también consume esta API, ¿qué archivos de esta práctica tendrían que tocar?
-   ninguno por que como trabajamos con contratos como los dto, que gracias a ellos separamos los datos de la interfaz usuario la app movil simplemente seria otro cliente mas al igual como el front que tenemos actualmente en el proyecto y este consumira los mismos endpoints y logica de negocio
+   ninguno por que como trabajamos con contratos como los dto, que gracias a ellos separamos los datos de la interfaz del usuario,  la app movil simplemente seria otro cliente mas al igual como el front que tenemos actualmente en el proyecto y este consumira los mismos endpoints y logica de negocio
