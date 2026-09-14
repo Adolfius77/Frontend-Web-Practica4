@@ -49,7 +49,7 @@ app.use((err: unknown, req: express.Request, res: express.Response, next: expres
             error: "VALIDACION",
             mensaje: err.message,
         };
-        res.status(400).json(error);
+        res.status(409).json(error);
         return;
     }
     if(err instanceof EjemplarPrestadoError) {
